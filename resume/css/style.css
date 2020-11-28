@@ -1,0 +1,234 @@
+.container > div{
+    margin:auto;
+    width:1025px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
+.top{
+    height: 400px;
+    background: url("../assets/img-headerShape.png");
+    background-repeat: no-repeat;
+}
+
+.clearfix{
+    clear:both;
+}
+.top_menu{
+    padding-left:100px;
+    padding-top:130px;
+}
+
+.left_menu{
+    width: 151px;
+    text-align: center;
+    float:left;
+    margin-right:136px;
+}
+.left_menu > h2{
+    font-size: 42px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.left_menu > p{
+    font-size: 14px;
+    color:#4A4A4A;
+    margin-bottom:5px;
+}
+.right_menu{
+    float:left;
+}
+
+.right_menu ul > li{
+    margin-bottom: 15px;
+    height: 36px;
+    color:white;
+    font-size: 18px;
+}
+
+.right_menu ul img{
+    vertical-align: middle;
+}
+
+.right_menu ul li span{
+    margin-left: 15px;
+}
+
+
+.main > div{
+    margin-bottom:30px;
+    padding:0 40px;
+}
+
+.skill{
+    margin-top:50px;
+}
+.main div > h2 {
+    text-align: center;
+    font-size: 24px;
+    color:#1736DC ;
+    margin-bottom: 30px;
+}
+.skill > ul > li{
+    float:left;
+    margin-left:20px;
+    width: 284px;
+    border-radius: 5px;
+    border:1px #eee solid;
+    background-color: #fff;
+    color:#4A4A4A;
+    padding: 30px 1px;
+    height:266px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill > ul > li > ul >li {
+    list-style: disc;
+    margin-bottom:10px;
+    width: 230px;
+    margin-left:55px;
+    text-align: left;
+    
+}
+
+.skill > ul > li > h3{
+    font-size: 18px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.experience{
+    position: relative;
+    height: 537px;
+}
+.line{
+    height: 513px;
+    border: 1px solid #D8D8D8;
+    width: 0;
+    left:50%;
+    position: absolute;
+}
+.experience ul > li{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.experience ul > li:nth-child(1){
+    margin-top:40px;
+}
+
+.box{
+    padding:10px;
+}
+
+
+.dot{
+    position: absolute;
+    left:49%
+}
+
+.left_box{
+    margin-left:150px;
+}
+
+.right_box{
+    margin-left:500px;
+}
+
+.box{
+    border-radius: 10px;
+    border:1px solid #FB56BF;
+    width: 260px;
+}
+
+.time{
+    color:#4A4A4A;
+    font-size:12px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.who{
+    color:#8A1737;
+    font-size:12px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.coper{
+    color:#4A4A4A ;
+    font-size:12px;
+}
+.intro{
+    color:#9B9B9B;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.dash{
+    border:4px solid #D8D8D8;
+    width: 46px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+
+
+.main div > .theme{
+    text-align: center;
+    font-size: 24px;
+    color:#FB56BF ;
+    margin-bottom: 30px;
+}
+
+.work{
+    float:left;
+    margin-right:30px;
+    width: 284px;
+    box-shadow: #fff 1px 1px 3px;
+}
+.photo{
+    height: 150px;
+    background-color: #FDB4E3;
+}
+
+.work > .text{
+    padding:10px;
+    background-color: #fff;
+}
+.text > p{
+    margin-top:10px;
+    color:#4A4A4A;
+}
+
+.about{
+    margin-top:30px;
+}
+
+.about > img{
+    width: 260px;
+    height: 335px;
+    float:left;
+    margin-left: 40px;
+    
+}
+.about > .aboutme{
+    float:left;
+    width: 442px;
+    color:#4A4A4A;
+    font-size:17px;
+    margin: 50px 100px;
+}
+
+.footer{
+    height: 87px;
+    background: url("../assets/img-Looper-bg.png");
+}
+.copyright{
+    font-size:16px;
+    text-align: center;
+    line-height: 87px;
+}
