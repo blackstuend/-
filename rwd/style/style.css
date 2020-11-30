@@ -1,0 +1,9 @@
+h3{
+ color:red;   
+}
+
+@media (max-width:768px){
+    h3{
+      color:blue;  
+    }
+}
