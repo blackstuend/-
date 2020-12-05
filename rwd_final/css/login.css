@@ -1,0 +1,76 @@
+.main{
+    padding:2em;
+    color:#3D1101;
+    background-color: #efe9e7;
+    text-align: center;
+}
+
+.main h2{
+    font-size:48px;
+    font-weight: bold;
+}
+.main form{
+    width: 300px;
+    padding:1em;
+    margin: 0 auto;
+    border-top: 3px solid #FF5E45 ;
+    margin-top: 2em;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.main form h4{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main .form-control{
+    margin-top:5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    height: 32px;
+    color:#000;
+    text-indent: 1em;
+    width: 100%;
+    text-align: left;
+}
+.main form .form-control:focus{
+    border-color:#007bff !important;
+    box-shadow: 0 0 5px#007bff !important;
+    outline: 0 none;
+    text-indent: 1em;
+    font-size:16px;
+    text-align: left;
+}
+.main form a{
+    margin-bottom: 2em;
+    color:#FF5E45;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    margin-top: 0.5em;
+}
+.main form a:hover{
+    cursor: pointer;
+}
+.main button{
+    padding:.8em 2em;
+    color:#fff;
+    border-radius: 3px;
+    width: 48.5%;
+    border:0;
+    font-size:16px;
+}
+.main button:hover{
+    cursor: pointer;
+}
+.main  button:nth-child(1){
+    background-color: #9b9696;
+    margin-right: 3%;
+}
+.main  button:nth-child(2){
+    background-color:#F56C23;;
+}
+.btn{
+    display:flex;
+}
